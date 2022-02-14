@@ -1,5 +1,6 @@
 :root {
   --dark-blue: #363f5f;
+  --white-title: #fff;
 }
 * {
   margin: 0;
@@ -27,6 +28,9 @@ body {
 .container {
   width: min(90vw, 800px);
   margin: auto;
+}
+h1 {
+  color: var(--white-title);
 }
 h2 {
   margin-top: 3.2rem;
