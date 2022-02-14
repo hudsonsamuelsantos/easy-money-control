@@ -1,6 +1,6 @@
 :root {
   --dark-blue: #363f5f;
-  --white-title: #fff;
+  --white-title: #ffff;
 }
 * {
   margin: 0;
@@ -76,7 +76,7 @@ button:hover {
   opacity: 1;
 }
 header {
-  background: #2d4a22;
+  background: #7900FF;
   padding: 2rem 0 10rem;
   text-align: center;
 }
@@ -112,7 +112,7 @@ header {
   margin-top: 1rem;
 }
 .card.total {
-  background: #49aa26;
+  background: #548CFF;
   color: white;
 }
 #transaction {
