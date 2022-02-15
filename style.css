@@ -39,11 +39,11 @@ h2 {
   font-weight: normal;
 }
 a {
-  color: #49aa26;
+  color: #2b71fd;
   text-decoration: none;
 }
 a:hover {
-  color: #3dd405;
+  color: #548CFF;
 }
 .button.new {
   display: inline-block;
@@ -55,12 +55,13 @@ button {
   padding: 0;
   border: none;
   color: #fff;
-  background: #49aa26;
+  background: #2b71fd;
   border-radius: 0.25rem;
   cursor: pointer;
+  transition: background 0.3s;
 }
 button:hover {
-  background: #3dd405;
+  background: #548CFF;
 }
 .button.cancel {
   color: #e92929;
@@ -71,6 +72,7 @@ button:hover {
   align-items: center;
   justify-content: center;
   opacity: 0.6;
+  transition: 0.3s;
 }
 .button.cancel:hover {
   opacity: 1;
