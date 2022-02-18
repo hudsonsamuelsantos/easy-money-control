@@ -2,6 +2,7 @@ const Modal = {
   open() {
     document.querySelector('.modal-overlay').classList.add('active')
   },
+
   close() {
     document.querySelector('.modal-overlay').classList.remove('active')
   }
@@ -37,21 +38,25 @@ const Transaction = {
 
   incomes() {
     let income = 0
+
     Transaction.all.forEach(transaction => {
       if (transaction.amount > 0) {
         income += transaction.amount
       }
     })
+
     return income
   },
 
   expenses() {
     let expense = 0
+
     Transaction.all.forEach(transaction => {
       if (transaction.amount < 0) {
         expense += transaction.amount
       }
     })
+
     return expense
   },
 
@@ -114,6 +119,7 @@ const Utils = {
 
   formatDate(date) {
     const splittedDate = date.split('-')
+    
     return `${splittedDate[2]}/${splittedDate[1]}/${splittedDate[0]}`
   },
 
@@ -154,7 +160,7 @@ const Form = {
       amount.trim() === '' ||
       date.trim() === ''
     ) {
-      throw new Error('Por favor, preencha todos os campos')
+      throw new Error('Por favor, preencha todos os campos!')
     }
   },
 
