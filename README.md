@@ -8,7 +8,7 @@
 
 Easy Money Control $ é uma aplicação web responsiva, construída visando colocar em prática os conhecimentos adiquiridos nos curso Discover da [Rocketseat](https://www.rocketseat.com.br/ "Site da Rocketseat").
 
-A aplicação consiste em um sistema de controle financeiro, onde é possível cadastrar e excluir transações e ver o saldo de entrada e saída 💰
+A aplicação consiste em um sistema de controle financeiro, onde é possível cadastrar e excluir transações, e ver o saldo de entrada e saída 💰
 
 Acesse o projeto: https://hudsonsamuelsantos.github.io/easy-money-control/
 
